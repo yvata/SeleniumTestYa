@@ -40,8 +40,6 @@ public void yaMarketLook() throws InterruptedException {
     webDriver.findElement(By.className("n-snippet-card2__main-price-wrapper")).click();
     Thread.sleep(1000);
     webDriver.findElement(By.partialLinkText("Отложить")).click();
-    webDriver.findElement(By.partialLinkText("Отложить")).click();
-
     webDriver.findElement(By.className("popup-informer__controls")).click();
 
     Thread.sleep(10000);
